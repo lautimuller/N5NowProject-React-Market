@@ -1,0 +1,23 @@
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 24px;
+    border-radius: 12px !important;
+  }
+  
+  .modal-paper {
+    padding: 24px;
+  }
+  
+  .modal-paper h6 {
+    margin-bottom: 16px;
+  }
+
+  .MuiPaper-root.modal-block {
+    border-radius: 16px;
+  }
+  

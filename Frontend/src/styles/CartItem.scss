@@ -1,0 +1,20 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+
+  .item-image {
+    width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 16px; /* Espacio entre la imagen y la información */
+  }
+
+  .item-info {
+    flex-grow: 1; /* La información ocupa todo el espacio restante */
+  }
+
+  img {
+    width: 100%; /* La imagen ocupa todo el espacio disponible */
+    height: auto; /* Se ajusta proporcionalmente según el ancho */
+    border-radius: 4px; /* Borde redondeado opcional */
+  }
+}
