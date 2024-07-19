@@ -1,0 +1,53 @@
+.left-drawer {
+  width: 250px;
+
+  &.dark-mode {
+    background-color: #333;
+    color: #fff;
+
+    .MuiTypography-root.title-menu {
+      color: #fff;
+    }
+
+    .MuiListItem-root {
+      color: #fff;
+
+      .MuiIconButton-root {
+        color: #fff;
+      }
+    }
+  }
+
+  &.light-mode {
+    background-color: #fff;
+    color: #333;
+
+    .MuiTypography-root.title-menu {
+      color: #333;
+    }
+
+    .MuiListItem-root {
+      color: #333;
+
+      .MuiIconButton-root {
+        color: #333;
+      }
+    }
+  }
+}
+
+.left-drawer-paper {
+  width: 250px;
+}
+
+.drawer-header {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MuiTypography-root.title-menu {
+  font-weight: 500;
+  font-size: 16px;
+}

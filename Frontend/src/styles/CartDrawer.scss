@@ -1,0 +1,112 @@
+.cart-drawer {
+  width: 300px;
+  padding: 20px 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.empty-cart {
+  margin-top: 20px;
+  color: #888;
+  text-align: center;
+}
+
+.drawer-content {
+  margin-bottom: 16px;
+}
+
+.drawer-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.close-block {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+}
+
+.close-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+
+  .item-image {
+    width: 40px;
+    margin-right: 16px;
+  }
+
+  .item-info {
+    flex-grow: 1;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+.total {
+  margin-top: 16px;
+  text-align: right;
+}
+
+.divider {
+  background-color: #d30101;
+}
+
+.empty-block {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.empty-block_img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+
+  .delete-icon {
+    cursor: pointer;
+    color: #f44336;
+  }
+}
+.buy-block {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.MuiButton-root.buy-button {
+  background-color: #d30101;
+  color: white;
+  width: "100%";
+  height: 40px;
+  text-decoration: none;
+  border-radius: 12px;
+
+  &:hover {
+    background-color: #d2000079;
+  }
+}
