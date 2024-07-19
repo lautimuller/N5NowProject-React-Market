@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "name": "Leche",
+      "price": 75000,
+      "amount": 0,
+      "id": 1
+    },
+    {
+      "name": "Cereal",
+      "price": 85300,
+      "amount": 0,
+      "id": 2
+    },
+    {
+      "name": "Huevos",
+      "price": 75000,
+      "amount": 8,
+      "id": 3
+    },
+    {
+      "name": "Carne",
+      "price": 85300,
+      "amount": 20,
+      "id": 4
+    },
+    {
+      "name": "Queso",
+      "price": 75000,
+      "amount": 0,
+      "id": 5
+    },
+    {
+      "name": "Arroz",
+      "price": 85300,
+      "amount": 7,
+      "id": 6
+    },
+    {
+      "name": "Frijoles",
+      "price": 85300,
+      "amount": 10,
+      "id": 7
+    },
+    {
+      "name": "Lentejas",
+      "price": 175000,
+      "amount": 42,
+      "id": 8
+    },
+    {
+      "name": "Avena",
+      "price": 85300,
+      "amount": 56,
+      "id": 9
+    },
+    {
+      "name": "Pollo",
+      "price": 375000,
+      "amount": 23,
+      "id": 10
+    },
+    {
+      "name": "Avena",
+      "price": "450",
+      "amount": "3",
+      "id": 11
+    },
+    {
+      "name": "Leche",
+      "price": "4500",
+      "amount": "4",
+      "id": 12
+    },
+    {
+      "name": "Yogurt",
+      "price": "0600",
+      "amount": 1,
+      "id": 13
+    },
+    {
+      "name": "Granola",
+      "price": "4000",
+      "amount": 0,
+      "id": 14
+    }
+  ]
+}
