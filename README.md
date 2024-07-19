@@ -73,4 +73,5 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 - `typescript`: ^4.9.5
 - `web-vitals`: ^2.1.4
 
+**Note:** In the `Frontend/src` folder, there is a file named `testLogical.ts` that contains the logical tests.
 
